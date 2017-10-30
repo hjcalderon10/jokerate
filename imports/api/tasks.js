@@ -2,6 +2,8 @@ import { Meteor } from 'meteor/meteor';
 import { Mongo } from 'meteor/mongo';
 import { check } from 'meteor/check';
  
+//Bien! retiraron los paquetes de insecure y autopublish
+
 export const Tasks = new Mongo.Collection('dhalia');
 
 if (Meteor.isServer) {
